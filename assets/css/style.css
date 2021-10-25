@@ -1,10 +1,3 @@
-/**
-* Template Name: Restaurantly - v3.1.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -177,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 5px 0;
   top: 0px;
 }
 
@@ -202,9 +195,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#header .logo img {
+/* #header .logo img {
   max-height: 40px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Book a table button Menu
@@ -833,6 +826,10 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+.about .about-text{
+  text-align: justify;
+} 
 
 @media (min-width: 1024px) {
   .about {
@@ -1614,7 +1611,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 35px;
   display: inline-block;
   background: #28251f;
   color: #fff;
@@ -1623,8 +1620,8 @@ section {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 55px;
+  height: 55px;
   transition: 0.3s;
 }
 
