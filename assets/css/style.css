@@ -322,12 +322,24 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
+.nav-menu {
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
+  }
+}
+
+@media (max-width: 981px){
+  .nav-menu {
+    align-items: flex-end;
+    justify-content: flex-end;
   }
 }
 
